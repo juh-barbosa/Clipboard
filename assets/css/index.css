@@ -1,0 +1,71 @@
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    --BaiJam: "BaiJam";
+}
+
+@font-face {
+    font-family: "BaiJam";
+    src: url(../font/BaiJamjuree-Regular.ttf);
+}
+
+main{
+    height: 100%;
+    font-family: "BaiJam";
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container__header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+
+.container__header_title{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 2.3rem;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.container__header_paragraph{
+    width: 50%;
+    text-align: center;
+    margin-top: 0.8rem;
+    color: var(--Grayish-Blue)
+}
+
+.container__header_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.container__header_div_ios, .container__header_div_mac{
+    width: 10.5rem;
+    height: 2.8rem;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+    color: #fff;
+    font-family: var(--BaiJam);
+    font-weight: 500;
+}
+
+.container__header_div_ios{
+    background-color: var(--Strong-Cyan);
+}
+
+.container__header_div_mac{
+    background-color: var(--Light-Blue);
+}
