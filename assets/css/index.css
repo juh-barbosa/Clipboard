@@ -27,20 +27,24 @@ main{
     padding-top: 5rem;
 }
 
-.container__header_title{
+.container__header_title, .container__header_subtitle, .container__snippets-info-title{
     width: 100%;
     text-align: center;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 2.3rem;
     color: var(--Dark-Grayish-Blue);
 }
 
-.container__header_paragraph{
+.container__header_paragraph, .container__snippets-info-paragraph{
     width: 50%;
     text-align: center;
     margin-top: 0.8rem;
     color: var(--Grayish-Blue)
+}
+
+.width-total{
+    width: 100%;
 }
 
 .container__header_div{
@@ -68,4 +72,57 @@ main{
 
 .container__header_div_mac{
     background-color: var(--Light-Blue);
+}
+
+.container__snippets-txt{
+    width: 50%;
+}
+
+.container__snippets{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.container__header_subtitle{
+    font-size: 1.8rem;
+}
+
+.container__snippets-computer{
+    display: flex;
+    width: 100%;
+    margin-top: 3.9rem;
+    flex-wrap: nowrap;
+    gap: 5rem;
+}
+
+.container__snippets-computer-img{
+    width: 51%;
+    margin-left: -1.9rem;
+}
+
+.container__snippets-info{
+    display: flex;
+    width: 49%;
+    flex-direction: column;
+    height: 100%;
+    gap: 0.8rem;
+    margin-top: 2.8rem;
+}
+
+.container__snippets-info-div{
+    width: 80%;
+}
+
+.container__snippets-info-title{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.container__snippets-info-paragraph{
+    font-size: 0.9rem;
+    text-align: left;
+    width: 70%;
+    line-height: 1.5rem;
 }
