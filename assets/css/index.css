@@ -40,7 +40,8 @@ main{
     width: 50%;
     text-align: center;
     margin-top: 0.8rem;
-    color: var(--Grayish-Blue)
+    color: var(--Grayish-Blue);
+    line-height: 1.6rem;
 }
 
 .width-total{
@@ -125,4 +126,16 @@ main{
     text-align: left;
     width: 70%;
     line-height: 1.5rem;
+}
+
+.container__devices{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+
+.container__devices-img{
+    margin-top: 3.5rem;
 }
